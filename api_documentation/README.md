@@ -10,7 +10,7 @@ Any other request type will be rejected with error code [405](https://httpstatus
 
 ## Request Signing
 All API calls must be signed by an API key to be validated.
-PHP signing key example:
+C# signing key example:
 ```C#
 using System.Security.Cryptography;
 
@@ -78,7 +78,8 @@ userToken
 ppn
 ```
 
-Other json key-value pairs are based on the fields that have to be updated on the parcel record. This list is not exhaustive and can change later.
+Other json key-value pairs are based on the fields that have to be updated
+on the parcel record. This list is not exhaustive and can change later.
 ```
 comp_number (Complaint Number)
 comp_filed_date (Complaint filed, in yyyy-mm-dd)
